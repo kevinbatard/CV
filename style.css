@@ -36,6 +36,7 @@ img {
     width: fit-content;
     margin: auto;
     margin-top: 10px;
+    text-align: center;
 }
 
 .jap {
@@ -51,10 +52,14 @@ img {
     margin-top: 10px;
 }
 
+.list {
+    list-style-type: circle;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 1fr 10vh 20vh 1fr 1fr 1fr;
+    grid-template-rows: 1fr 10vh 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
 

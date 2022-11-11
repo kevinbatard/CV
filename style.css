@@ -1,0 +1,80 @@
+body {
+    background-color: #faf2ea;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+}
+
+h1,h2,h3 {
+    color: #392E2C;
+}
+
+img {
+    box-shadow: 0px 1px 2px #392E2C;
+    border-radius: 19px;
+}
+
+.wheel {
+    color: #392E2C;
+    background-color: #CCAEA4;
+    border-style: hidden;
+    border-radius: 7px;
+    padding: 5px;
+    border-width: 3px;
+    box-shadow: 0px 1px 2px #392E2C;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 10vh 20vh 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.name {
+    grid-column: 1/3;
+}
+
+.photo {
+    grid-column: 3;
+}
+
+.citation {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+.infos {
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
+.interest {
+    grid-column: 3/4;
+    grid-row: 4;
+}
+
+.skills {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+.exp {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+.formation {
+    grid-column: 1/3;
+    grid-row: 5;
+}
+
+.dream {
+    grid-column: 1/3;
+    grid-row: 6;
+}
+
+

@@ -1,13 +1,4 @@
-@font-face {
-    font-family: "Sono";
-    src: url("/font/Sono/Sono-Bold.ttf") format("truetype"),
-    url("/font/Sono/Sono-ExtraBold.ttf")format("truetype"),
-    url("/font/Sono/Sono-ExtraLight.ttf")format("truetype"),
-    url("/font/Sono/Sono-Light.ttf")format("truetype"),
-    url("/font/Sono/Sono-Medium.ttf")format("truetype"),
-    url("/font/Sono/Sono-Regular.ttf")format("truetype"),
-    url("/font/Sono/Sono-SemiBold.ttf")format("truetype");
-}
+
 body {
     background-color: #faf2ea;
     margin-left: 20%;
